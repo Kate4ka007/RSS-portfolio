@@ -1,2 +1,2 @@
 # kate4ka007-JSFEPRESCHOOL
-Private repository for @kate4ka007
+https://kate4ka007.github.io/RSS-portfolio/portfolio/
