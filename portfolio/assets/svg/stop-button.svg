@@ -1,0 +1,26 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient spreadMethod="pad" y2="1" x2="1" y1="0" x1="0" id="svg_18">
+   <stop offset="0" stop-opacity="0.992188" stop-color="#ff4800"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="1" x2="1" y1="0" x1="0" id="svg_26">
+   <stop offset="0.101563" stop-opacity="0.996094" stop-color="#ffffff"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#ff0000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_8" r="150" cy="240.001698" cx="320.000535" stroke-linecap="round" stroke-width="17.5" fill="url(#svg_18)"/>
+  <ellipse transform="rotate(-45.252899169921875 251.17999267578122,170.125) " id="svg_20" ry="44.402987" rx="75.675959" cy="170.124194" cx="251.179609" stroke-linecap="round" stroke-width="17.5" fill="url(#svg_26)"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <text transform="matrix(18.25,0,0,1,-7020.75,0) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_10" y="280" x="401" opacity="0.5" fill-opacity="0.64" stroke-linecap="round" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <text transform="matrix(11.833333015441895,0,0,4.588235378265381,-1408.3332920074463,-226.058828830719) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_11" y="88" x="136" opacity="0.5" fill-opacity="0.64" stroke-linecap="round" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <text transform="matrix(6.333333492279053,0,0,1,240.00000715255737,0) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_12" y="12" x="-39" opacity="0.5" fill-opacity="0.64" stroke-linecap="round" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_13" y="177" x="652" opacity="0.5" fill-opacity="0.64" stroke-linecap="round" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <rect id="svg_16" height="93.999999" width="98.999996" y="199" x="268" stroke-linecap="round" stroke-linejoin="null" stroke-dasharray="null" stroke-width="17.5" fill="#000000"/>
+ </g>
+</svg>
