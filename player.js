@@ -1,27 +1,24 @@
 const video = document.querySelector('.video'),
-      playBtn = document.querySelector('.controls__play'),
-      stopBtn = document.querySelector('.controls__stop'),
-      playBtnImg = document.querySelector('.play__btn'),
-      progress = document.querySelector('.progress'),
-      play_pause = document.querySelector('.buttons_video'),
-      time = document.querySelector('.controls__time');
-
-
+    playBtn = document.querySelector('.controls__play'),
+    stopBtn = document.querySelector('.controls__stop'),
+    playBtnImg = document.querySelector('.play__btn'),
+    progress = document.querySelector('.progress'),
+    play_pause = document.querySelector('.buttons_video'),
+    time = document.querySelector('.controls__time');
 //play/pause video//
 
 function toggleVideoStatus() {
     if (video.paused) {
         video.play()
         playBtnImg.src = './assets/svg/pause.svg'
-        play_pause.style.display='none'
+        play_pause.style.display = 'none'
     } else {
         video.pause()
         playBtnImg.src = './assets/svg/play.svg'
-        play_pause.style.display='block'
-        
+        play_pause.style.display = 'block'
+
     }
 }
-
 playBtn.addEventListener('click', toggleVideoStatus)
 video.addEventListener('click', toggleVideoStatus)
 play_pause.addEventListener('click', toggleVideoStatus)
@@ -39,8 +36,8 @@ stopBtn.addEventListener('click', toggleVideoStop)
 
 function updateProgress() {
     progress.value = (video.currentTime / video.duration) * 100
-    
-   
+
+
     //minute//
     let minutes = Math.floor(video.currentTime / 60)
     if (minutes < 10) {
@@ -61,7 +58,7 @@ video.addEventListener('timeupdate', updateProgress)
 //set progress
 function setProgress() {
     video.currentTime = (progress.value * video.duration) / 100
-   
+
 }
 progress.addEventListener('change', setProgress)
 
@@ -119,10 +116,10 @@ progress_volume.addEventListener('input', function () {
 
 
 
-function slidingProgress() {   
+function slidingProgress() {
     progress.style.background = `linear-gradient(to right, #bdae82 0%, #bdae82 ${progress.value}%, #d8d8d8 ${progress.value}%, #d8d8d8 100%)`
 }
-  
+
 video.addEventListener('timeupdate', updateProgress)
 
 progress.oninput = slidingProgress;
